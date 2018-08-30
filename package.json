@@ -6,6 +6,9 @@
   "repository": "https://github.com/Delacruz21/advanced-react",
   "author": "Michael De La Cruz",
   "license": "MIT",
+  "scripts": {
+    "dev": "pm2 start lib/server.js --watch"
+  },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
     "eslint": "^5.4.0",
