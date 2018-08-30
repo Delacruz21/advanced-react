@@ -9,6 +9,9 @@
 # production
 /build
 
+# ide config
+/.c9
+
 # misc
 .DS_Store
 .env.local
