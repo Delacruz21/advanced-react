@@ -1,7 +1,7 @@
 const path = require('path');
 
 const config = {
-  entry: './lib/components/Index.js',
+  entry: ['babel-polyfill','./lib/components/Index.js'],
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
@@ -10,7 +10,7 @@ const config = {
   rules: [
     {
       test: /\.js$/,
-      exclude: /(node_modules|bower_components)/,
+      exclude: /(node_modules)/,
       use: {
         loader: 'babel-loader'
       }
