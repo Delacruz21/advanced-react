@@ -27,18 +27,18 @@ exports[`ArticleList renders correctly 1`] = `
           "fontSize": "0.85em",
         }
       }
-    >
-      Invalid Date
-    </div>
+    />
     <div
-      styles={
+      style={
         Object {
           "paddingBottom": 10,
           "paddingTop": 10,
         }
       }
     >
-      <a>
+      <a
+        href={undefined}
+      >
          
       </a>
     </div>
@@ -75,18 +75,18 @@ exports[`ArticleList renders correctly 1`] = `
           "fontSize": "0.85em",
         }
       }
-    >
-      Invalid Date
-    </div>
+    />
     <div
-      styles={
+      style={
         Object {
           "paddingBottom": 10,
           "paddingTop": 10,
         }
       }
     >
-      <a>
+      <a
+        href={undefined}
+      >
          
       </a>
     </div>
